@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>החיים הטובים - הכשרת יוצרי וידאו ב-AI | אריאל איזנשטט</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Heebo', sans-serif;
+            background-color: #050505;
+            color: #f3f4f6;
+        }
+        .text-gold {
+            color: #FFD700;
+        }
+        .bg-gold {
+            background-color: #FFD700;
+        }
+        .btn-glow {
+            box-shadow: 0 0 15px rgba(220, 38, 38, 0.7);
+            transition: all 0.3s ease;
+        }
+        .btn-glow:hover {
+            box-shadow: 0 0 25px rgba(220, 38, 38, 1);
+            transform: scale(1.05);
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #FFD700, #FDB931);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .check-icon {
+            color: #4ade80; /* Green-400 */
+        }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #111;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #333;
+            border-radius: 5px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Top Bar -->
+    <div class="bg-red-600 text-white text-center py-2 text-sm font-bold tracking-wider">
+        🔥 מחיר השקה מיוחד - מספר המקומות מוגבל!
+    </div>
+
+    <!-- Hero Section -->
+    <header class="relative overflow-hidden pt-12 pb-20 lg:pt-20 lg:pb-28">
+        <div class="container mx-auto px-4 text-center max-w-4xl">
+            <span class="inline-block py-1 px-3 rounded-full bg-yellow-500/10 border border-yellow-500/30 text-yellow-400 text-sm font-semibold mb-6">
+                תוכנית ההכשרה המקיפה בישראל
+            </span>
+            <h1 class="text-4xl md:text-6xl font-black leading-tight mb-6">
+                להפוך ליוצר וידאו <span class="gradient-text">מטורף עם AI</span><br>
+                ולהתחיל לחיות את "החיים הטובים"
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-10 font-light max-w-2xl mx-auto">
+                הצטרפו למהפכה עם אריאל איזנשטט: 3 קורסים מקיפים, ליווי אישי צמוד וכלים שיהפכו אתכם למכונת תוכן בלתי ניתנת לעצירה.
+            </p>
+
+            <!-- Video Placeholder -->
+            <div class="relative w-full max-w-3xl mx-auto aspect-video bg-gray-900 rounded-2xl shadow-2xl border border-gray-800 mb-12 flex items-center justify-center group cursor-pointer overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
+                <!-- Mock Video Content -->
+                <div class="text-center z-20">
+                    <div class="w-20 h-20 bg-red-600 rounded-full flex items-center justify-center pl-1 mb-4 mx-auto btn-glow group-hover:scale-110 transition-transform duration-300">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                    </div>
+                    <p class="text-white font-bold tracking-wider">צפה בוידאו: איך זה עובד?</p>
+                </div>
+                 <!-- Background animated effect mockup -->
+                 <div class="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
+            </div>
+
+            <a href="#offer" class="inline-block bg-red-600 hover:bg-red-700 text-white text-xl md:text-2xl font-bold py-4 px-12 rounded-full btn-glow transform transition">
+                כן! אני רוצה גישה מיידית להכשרה >>
+            </a>
+            <p class="mt-4 text-gray-500 text-sm">גישה מיידית | תשלום מאובטח | 100% אחריות</p>
+        </div>
+    </header>
+
+    <!-- The Problem / Opportunity -->
+    <section class="py-16 bg-gray-900/50 border-y border-gray-800">
+        <div class="container mx-auto px-4 max-w-5xl">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">העולם מתחלק לשניים:</h2>
+                    <div class="space-y-6">
+                        <div class="flex items-start bg-gray-800/50 p-4 rounded-lg border-r-4 border-red-500">
+                            <div class="mr-4">
+                                <h3 class="font-bold text-lg text-red-400">אלו שנשארים מאחור</h3>
+                                <p class="text-gray-400 text-sm">נאבקים עם תוכנות עריכה מסובכות, משלמים הון לפרילנסרים, ושורפים שעות על יצירת סרטון אחד בודד.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start bg-gray-800/50 p-4 rounded-lg border-r-4 border-green-500">
+                            <div class="mr-4">
+                                <h3 class="font-bold text-lg text-green-400">אלו שחיים את "החיים הטובים"</h3>
+                                <p class="text-gray-400 text-sm">מייצרים תוכן ויראלי בלחיצת כפתור, שולטים בכלי ה-AI החדשים ביותר, ומפנים זמן למה שבאמת חשוב.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center md:text-right">
+                    <h3 class="text-2xl font-bold mb-4">הגיע הזמן לבחור צד.</h3>
+                    <p class="text-gray-300 leading-relaxed mb-6">
+                        בעידן החדש, לא החזק שורד – אלא המהיר והיצירתי ביותר. התוכנית שלנו נבנתה במיוחד כדי לקחת אתכם מאפס ל-100, גם אם אין לכם רקע טכני בכלל.
+                    </p>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="flex items-center"><svg class="w-5 h-5 text-gold ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> בלי ידע קודם בעריכה</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-gold ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> בלי ציוד יקר (מספיק מחשב פשוט)</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-gold ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> תוצאות מיידיות מהשיעור הראשון</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Curriculum (The Offer) -->
+    <section class="py-20" id="curriculum">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-black mb-4">מה מחכה לכם בפנים?</h2>
+                <p class="text-xl text-gold">3 קורסים דיגיטליים מקיפים + חבילת בונוסים מטורפת</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Course 1 -->
+                <div class="glass-card p-8 rounded-2xl relative hover:-translate-y-2 transition duration-300">
+                    <div class="absolute -top-4 right-8 bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-bold shadow-lg">קורס 1</div>
+                    <div class="h-12 w-12 bg-blue-500/20 rounded-lg flex items-center justify-center mb-6 text-blue-400">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">יצירת וידאו ב-AI</h3>
+                    <p class="text-gray-400 text-sm mb-4">השליטה המלאה בכלים הכי חמים בשוק. מ-Sora ועד Runway.</p>
+                    <ul class="text-sm space-y-2 text-gray-300">
+                        <li class="flex items-start"><span class="text-blue-500 ml-2">●</span> יצירת סרטונים מטקסט בלבד</li>
+                        <li class="flex items-start"><span class="text-blue-500 ml-2">●</span> אנימציות והנפשת תמונות</li>
+                        <li class="flex items-start"><span class="text-blue-500 ml-2">●</span> עדכונים שוטפים על כל כלי חדש</li>
+                    </ul>
+                </div>
+
+                <!-- Course 2 -->
+                <div class="glass-card p-8 rounded-2xl relative border-yellow-500/30 shadow-[0_0_20px_rgba(255,215,0,0.1)] hover:-translate-y-2 transition duration-300">
+                    <div class="absolute -top-4 right-8 bg-yellow-600 text-white px-4 py-1 rounded-full text-sm font-bold shadow-lg">קורס 2</div>
+                    <div class="h-12 w-12 bg-yellow-500/20 rounded-lg flex items-center justify-center mb-6 text-yellow-400">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">חשיבה מקורית ויצירתית</h3>
+                    <p class="text-gray-400 text-sm mb-4">איך לפרוץ מחסומים יצירתיים ולהביא רעיונות שאף אחד אחר לא חשב עליהם.</p>
+                    <ul class="text-sm space-y-2 text-gray-300">
+                        <li class="flex items-start"><span class="text-yellow-500 ml-2">●</span> פיתוח ה"שריר היצירתי"</li>
+                        <li class="flex items-start"><span class="text-yellow-500 ml-2">●</span> סטוריטלינג ויזואלי</li>
+                        <li class="flex items-start"><span class="text-yellow-500 ml-2">●</span> בידול מהמתחרים</li>
+                    </ul>
+                </div>
+
+                <!-- Course 3 -->
+                <div class="glass-card p-8 rounded-2xl relative hover:-translate-y-2 transition duration-300">
+                    <div class="absolute -top-4 right-8 bg-purple-600 text-white px-4 py-1 rounded-full text-sm font-bold shadow-lg">קורס 3</div>
+                    <div class="h-12 w-12 bg-purple-500/20 rounded-lg flex items-center justify-center mb-6 text-purple-400">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">שיווק אפקטיבי בעידן החדש</h3>
+                    <p class="text-gray-400 text-sm mb-4">לא מספיק ליצור וידאו יפה, צריך לדעת איך הוא מביא כסף ולקוחות.</p>
+                    <ul class="text-sm space-y-2 text-gray-300">
+                        <li class="flex items-start"><span class="text-purple-500 ml-2">●</span> אסטרטגיות שיווק מודרניות</li>
+                        <li class="flex items-start"><span class="text-purple-500 ml-2">●</span> ויראליות ברשתות חברתיות</li>
+                        <li class="flex items-start"><span class="text-purple-500 ml-2">●</span> המרה מצפייה לרכישה</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bonuses Section -->
+    <section class="py-16 bg-gradient-to-b from-gray-900 to-black">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h2 class="text-3xl font-bold text-center mb-10">וזה לא הכל... קבלו את <span class="text-gold">הבונוסים הבלעדיים</span></h2>
+            
+            <div class="space-y-4">
+                <!-- Bonus 1 -->
+                <div class="flex flex-col md:flex-row items-center bg-gray-800 rounded-xl p-6 border border-gray-700">
+                    <div class="text-4xl mr-0 md:ml-6 mb-4 md:mb-0">🤝</div>
+                    <div class="text-center md:text-right flex-1">
+                        <h3 class="text-xl font-bold text-white mb-2">ליווי אישי מלא – VIP</h3>
+                        <p class="text-gray-400 text-sm">אנחנו לא משאירים אתכם לבד. זמינות בטלפון, בוואטסאפ ואפילו שיחות זום אישיות כדי לוודא שאתם מצליחים.</p>
+                    </div>
+                    <div class="bg-gray-700 px-3 py-1 rounded text-xs text-gray-300 mt-4 md:mt-0 whitespace-nowrap">שווי: 1,500 ₪</div>
+                </div>
+
+                <!-- Bonus 2 -->
+                <div class="flex flex-col md:flex-row items-center bg-gray-800 rounded-xl p-6 border border-gray-700">
+                    <div class="text-4xl mr-0 md:ml-6 mb-4 md:mb-0">🚀</div>
+                    <div class="text-center md:text-right flex-1">
+                        <h3 class="text-xl font-bold text-white mb-2">תוכנית אסטרטגית מותאמת אישית</h3>
+                        <p class="text-gray-400 text-sm">נבנה יחד תוכנית פעולה מותאמת בדיוק לצרכים של העסק או המותג האישי שלכם.</p>
+                    </div>
+                    <div class="bg-gray-700 px-3 py-1 rounded text-xs text-gray-300 mt-4 md:mt-0 whitespace-nowrap">שווי: 1,200 ₪</div>
+                </div>
+
+                <!-- Bonus 3 -->
+                <div class="flex flex-col md:flex-row items-center bg-gray-800 rounded-xl p-6 border border-gray-700">
+                    <div class="text-4xl mr-0 md:ml-6 mb-4 md:mb-0">👥</div>
+                    <div class="text-center md:text-right flex-1">
+                        <h3 class="text-xl font-bold text-white mb-2">קהילת הוואטסאפ הסגורה</h3>
+                        <p class="text-gray-400 text-sm">נטוורקינג, תמיכה מחברים, ושיתוף יצירות בקבוצה תומכת ומפרגנת.</p>
+                    </div>
+                    <div class="bg-gray-700 px-3 py-1 rounded text-xs text-gray-300 mt-4 md:mt-0 whitespace-nowrap">לא יסולא בפז</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About the Lecturer Section -->
+    <section class="py-16 bg-black border-t border-gray-800">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="flex flex-col md:flex-row items-center gap-8 glass-card p-8 rounded-3xl border border-gray-700">
+                <!-- Avatar / Image Placeholder -->
+                <div class="w-32 h-32 md:w-48 md:h-48 flex-shrink-0 bg-gradient-to-br from-gray-700 to-gray-900 rounded-full border-4 border-gold/50 flex items-center justify-center shadow-xl overflow-hidden relative">
+                     <img src="https://scontent.ftlv6-1.fna.fbcdn.net/v/t39.30808-6/504640488_122175268328377952_2423199836187468606_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=wGdLYsfIiA4Q7kNvwF2Sdgh&_nc_oc=Adn1QtEAzmvXwqpJkmWG3cAeDEHVT1-JFaLnW5puqm95-PY_icpdsc9IKCSF4D-B8IU&_nc_zt=23&_nc_ht=scontent.ftlv6-1.fna&_nc_gid=fFPEvchEJGnilP46H6B8FA&oh=00_AfhqOjjhp3oHSe6uJx2Q-ZRCO5cymO77NA9DldFfRJdPHQ&oe=6930C23E" alt="אריאל איזנשטט" class="w-full h-full object-cover">
+                </div>
+                
+                <div class="text-center md:text-right flex-1">
+                    <h2 class="text-3xl font-bold mb-2 text-white">נעים להכיר, <span class="text-gold">אריאל איזנשטט</span></h2>
+                    <p class="text-red-500 font-bold mb-4 tracking-wide text-lg">הבעלים של PixMind Studio</p>
+                    <p class="text-gray-300 leading-relaxed mb-4">
+                        אני הבעלים של PixMind Studio - סטודיו מוביל ליצירת פרסומות וסרטונים שעובד עם החברות, המותגים והארגונים הגדולים ביותר במדינה.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed">
+                        מעבר לעשייה בסטודיו, אני יוצר תוכן ומרצה על בינה מלאכותית ווידאו, וחי את העולם הזה יום-יום. בתוכנית הזו ארזתי עבורכם את כל הידע והניסיון שלי כדי שתוכלו לקפוץ למים העמוקים וליצור תוצאות מדהימות.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offer & Price Section -->
+    <section id="offer" class="py-20 relative overflow-hidden">
+        <!-- Glow effects -->
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-red-600/20 rounded-full blur-[100px] pointer-events-none"></div>
+
+        <div class="container mx-auto px-4 max-w-3xl relative z-10 text-center">
+            <div class="glass-card p-8 md:p-12 rounded-3xl border-2 border-gold/30 shadow-2xl">
+                <h2 class="text-3xl md:text-4xl font-black mb-2">ההצטרפות לתוכנית "החיים הטובים"</h2>
+                <p class="text-gray-400 mb-8">כל הכלים, הידע והתמיכה שאתם צריכים כדי לפרוץ</p>
+
+                <div class="flex justify-center items-center mb-6">
+                    <div class="text-gray-500 text-2xl line-through ml-4 font-light">4,800 ₪</div>
+                    <div class="text-6xl md:text-7xl font-black text-white tracking-tighter">1,000 <span class="text-2xl font-normal text-gray-300">₪</span></div>
+                </div>
+                
+                <div class="bg-red-900/30 text-red-400 inline-block px-4 py-1 rounded mb-8 text-sm font-bold border border-red-900/50">
+                    מחיר טרום השקה - לזמן מוגבל בלבד
+                </div>
+
+                <ul class="text-right space-y-3 mb-10 max-w-md mx-auto text-gray-300">
+                    <li class="flex items-center"><svg class="w-5 h-5 text-green-500 ml-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> 3 קורסים דיגיטליים מלאים</li>
+                    <li class="flex items-center"><svg class="w-5 h-5 text-green-500 ml-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> ליווי אישי (טלפון/זום/וואטסאפ)</li>
+                    <li class="flex items-center"><svg class="w-5 h-5 text-green-500 ml-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> עדכונים שוטפים לכל החיים</li>
+                    <li class="flex items-center"><svg class="w-5 h-5 text-green-500 ml-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> קבוצת קהילה סגורה</li>
+                </ul>
+
+                <a href="https://pay.grow.link/3bc632889d2b8426a462dead96c048e7-MjYzOTg0Ng" target="_blank" class="block w-full bg-gradient-to-r from-red-600 to-red-500 hover:from-red-500 hover:to-red-400 text-white text-2xl font-bold py-5 px-8 rounded-xl shadow-lg transform transition hover:scale-[1.02] btn-glow">
+                    אני רוצה להירשם עכשיו! 🚀
+                </a>
+                <p class="mt-4 text-xs text-gray-500">מספר המקומות בהשקה מוגבל כדי שנוכל לתת יחס אישי לכולם.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-gray-900">
+        <div class="container mx-auto px-4 max-w-3xl">
+            <h2 class="text-3xl font-bold text-center mb-10">שאלות נפוצות</h2>
+            <div class="space-y-4">
+                <details class="group bg-black p-4 rounded-lg cursor-pointer">
+                    <summary class="flex justify-between items-center font-medium list-none text-white">
+                        <span>האם צריך ידע קודם בעריכה או במחשבים?</span>
+                        <span class="transition group-open:rotate-180">
+                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <p class="text-gray-400 mt-3 text-sm leading-relaxed">ממש לא. התוכנית בנויה מאפס ומתאימה לכל אחד, גם אם אתם חוששים מטכנולוגיה. אנחנו נלמד אתכם הכל צעד אחר צעד.</p>
+                </details>
+
+                <details class="group bg-black p-4 rounded-lg cursor-pointer">
+                    <summary class="flex justify-between items-center font-medium list-none text-white">
+                        <span>האם אני צריך מחשב חזק?</span>
+                        <span class="transition group-open:rotate-180">
+                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <p class="text-gray-400 mt-3 text-sm leading-relaxed">לא. רוב כלי ה-AI עובדים בענן (על השרתים של החברות), כך שכל מחשב ממוצע ואפילו טאבלט יכולים להספיק כדי ליצור תוצרים מדהימים.</p>
+                </details>
+
+                <details class="group bg-black p-4 rounded-lg cursor-pointer">
+                    <summary class="flex justify-between items-center font-medium list-none text-white">
+                        <span>מה כולל הליווי האישי?</span>
+                        <span class="transition group-open:rotate-180">
+                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <p class="text-gray-400 mt-3 text-sm leading-relaxed">אנחנו זמינים עבורכם לכל שאלה בוואטסאפ, בשיחות טלפון ואם צריך - גם נפתח זום ונראה לכם בדיוק על המסך איפה ללחוץ.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-8 border-t border-gray-800 text-center">
+        <div class="container mx-auto px-4">
+            <p class="text-gray-500 text-sm mb-2">© 2025 החיים הטובים - כל הזכויות שמורות לאריאל איזנשטט.</p>
+            <div class="flex justify-center space-x-4 space-x-reverse text-sm text-gray-600">
+                <a href="#" class="hover:text-white">תקנון</a>
+                <span>|</span>
+                <a href="#" class="hover:text-white">מדיניות פרטיות</a>
+                <span>|</span>
+                <a href="#" class="hover:text-white">יצירת קשר</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
